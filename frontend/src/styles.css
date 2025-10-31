@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-surface: 248 250 252;
+  --app-primary: 59 130 246;
+  --app-accent: 14 165 233;
+}
+
+:root.dark {
+  --app-surface: 17 24 39;
+  --app-primary: 96 165 250;
+  --app-accent: 34 211 238;
+}
+
+body {
+  font-family: 'Vazirmatn', ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  scrollbar-color: rgba(148, 163, 184, 0.6) transparent;
+}
